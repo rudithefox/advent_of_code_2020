@@ -24,17 +24,14 @@ end
 
 defmodule Math do
   def multiply([first | rest]) do
-   IO.inspect(first)
     multiply(rest, first)
   end
 
   def multiply([first | rest], num) do
-    IO.inspect(first)
     multiply(rest, num*first)
   end
 
   def multiply([], num) do
-    IO.inspect(num)
     num
   end
 
