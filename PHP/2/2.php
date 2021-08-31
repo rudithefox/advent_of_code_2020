@@ -19,7 +19,6 @@ foreach ($lines as $line) {
         $valid_count++;
     } else {
     }
-
 }
 
 echo "Part 1: " . $valid_count . "\n";
@@ -60,7 +59,6 @@ foreach ($lines as $line) {
         echo "Second_Pos: " . $second_pos . "\n";
         echo "=============\n";
     }
-
 }
 
 echo "Part 2: " . $valid_count . "\n";
